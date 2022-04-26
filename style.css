@@ -1,0 +1,281 @@
+*{
+    margin: 0%;
+    padding: 0%;
+}
+
+
+/* incio de la pagina */
+
+
+.body_inicio{
+    background-image: url(img/lacoste.jpg);
+    
+}
+
+.principal{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    background-image: linear-gradient(to right , white,rgb(71, 89, 122)  ,rgba(70, 139, 185, 0.863) , white);
+    padding: 40px;
+    margin:0%
+}
+.logo{
+    font-size: larger;
+}
+
+nav a{
+    text-decoration: none;
+    font-size: large;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.primero{
+    background-color:grey;
+    text-align: center;
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.parrafo{
+    margin: 170px;
+    padding: 0%;
+    font-size: 40px;
+    height: 30px;
+}
+
+.parrafo p{
+    animation-name: animacion;
+    animation-duration: 2s;
+    animation-iteration-count:infinite;
+    animation-delay: 3s;
+
+}
+
+@keyframes animacion {
+    0%{
+        font-size: 15px;;
+    }
+
+    25%{
+        color: gray;
+        font-size: 25px;
+    }
+}
+
+
+
+.boton{
+    padding: 20px;
+    margin: 20px;
+}
+
+.body_nuevo{
+
+    background-color:#9fa9a3;
+
+}
+
+.footerprincipal{
+    position: absolute;
+    bottom: 0;
+}
+
+/* parte NEW IN pagina */
+
+
+.principal_newin{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding:40px;
+    margin: 0%;
+    background-image: linear-gradient(to right , white ,rgba(22, 22, 22, 0.61)  ,rgba(116, 120, 122, 0.952) , white);
+    color: black;
+}
+
+
+
+.main_newin{
+    padding:50px;
+    margin: 50px;
+}
+
+
+.parrafo_newin{    
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    text-decoration:overline;
+}
+
+
+.div_main{
+    display: flex;
+    justify-content: center;
+    flex-wrap:wrap;
+}
+
+.indumentaria{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+
+.indumentaria div{
+    text-align: center;
+    color: rgb(6, 68, 6);
+    box-shadow: 2px 4px 10px 0 black;
+    border-color: rgb(31, 31, 31);
+    border-style: solid;
+    width: 19%;
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction:column;
+}
+
+.indumentaria strong{
+    color: black;
+    text-align: center;
+}
+
+
+footer{
+    background-color:#c0ded9;
+    font-size: medium;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+/* Parte CONTACTO de la pagina */
+
+
+.body_contacto{
+    background-image:url(img/modelo1.jpg);
+
+    
+}
+
+.principal_contacto{
+    display: flex;
+    justify-content:space-around;
+    flex-wrap: wrap;
+    padding: 40px;
+    margin:0%;
+    background-image: linear-gradient(to right , white,rgb(196, 174, 101)  ,rgba(226, 190, 32, 0.911) , white);
+}
+
+.formulario{
+    text-align: center;
+    margin: 10%;
+    padding: 10%;
+}
+
+.div_condiciones{
+    font-size: 30px;
+    text-align: center;
+    color: white;
+}
+
+.legend{
+    font-size: 30px;
+}
+
+
+/* parte galeria " marcas " de la pagina*/
+
+
+.body_galeria{
+    background-color: #c0ded9;
+}
+
+.principal_galeria{
+    display: flex;
+    justify-content: space-around;
+    background-image: linear-gradient(to right ,rgba(80, 121, 131, 0.925)  ,rgba(127, 186, 199, 0.493) , white);
+    padding: 40px;
+    margin: 0%;
+
+}
+.div_h1{
+    text-align: center;
+    font-size: medium;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    padding: 1cm;
+}
+
+.marcasmain_section{
+    background-color:#9fa9a3;
+    padding: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+}
+
+.marcas_main div{
+    box-shadow: 2px 4px 10px 0 black;
+    border-color: rgba(56, 59, 59, 0.952);
+    border-style: solid;
+    width: 19%;
+    border-radius: 10px;
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+/* Parte NOSOTROS de la pagina */
+
+
+.body_nosotros{
+    background-color: #588c7e;
+}
+
+
+
+.principal_nosotros{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px;
+    margin:0%;
+    background-image: linear-gradient(to right ,rgb(54, 175, 139)  ,rgba(24, 236, 173, 0.493) , white);
+
+}
+.titulo_nosotros{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    text-align: center;
+    font-size:large ;
+    color: rgba(241, 251, 255, 0.986);
+    margin: 15px;
+    padding: 20px;
+    text-decoration:overline
+    
+    
+}
+.titulo_dosnosotros{
+    float: left;
+}
+
+
+.usuarios{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    padding: 10px;
+}
+
+.usuarios div{
+    box-shadow: 2px 4px 10px 0 black;
+    border-color: rgb(15, 199, 144);
+    border-style: solid;
+    width: 19%;
+    background-color: #fff;
+    margin: 10px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+}
